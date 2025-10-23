@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Moringa",
+        "scientificName": "Moringa oleifera",
+        "description": "Known as the 'Miracle Tree', Moringa is highly nutritious and has numerous medicinal properties.",
+        "benefits": [
+            "Rich in antioxidants",
+            "Anti-inflammatory properties",
+            "Supports immune system",
+            "Reduces blood sugar levels"
+        ],
+        "usages": [
+            {
+                "condition": "General health",
+                "preparation": "Dried leaves can be consumed as tea or powder",
+                "dosage": "1-2 teaspoons of powder daily",
+                "precautions": "Consult healthcare provider if pregnant"
+            }
+        ],
+        "region": "Central Kenya",
+        "price": {
+            "amount": 500,
+            "unit": "per 100g"
+        },
+        "category": "medicinal",
+        "harvesting": {
+            "season": "Year-round",
+            "method": "Hand-picking of leaves",
+            "bestPractices": [
+                "Harvest early morning",
+                "Select mature leaves",
+                "Clean tools before harvesting"
+            ]
+        }
+    },
+    {
+        "name": "African Basil",
+        "scientificName": "Ocimum gratissimum",
+        "description": "Traditional medicinal herb used for various ailments and cooking.",
+        "benefits": [
+            "Antimicrobial properties",
+            "Digestive aid",
+            "Respiratory health",
+            "Pain relief"
+        ],
+        "usages": [
+            {
+                "condition": "Digestive issues",
+                "preparation": "Fresh leaves can be boiled for tea",
+                "dosage": "1 cup, 3 times daily",
+                "precautions": "May interact with blood thinning medications"
+            }
+        ],
+        "region": "Western Kenya",
+        "price": {
+            "amount": 300,
+            "unit": "per bunch"
+        },
+        "category": "culinary",
+        "harvesting": {
+            "season": "Rainy season",
+            "method": "Cut stems above leaf node",
+            "bestPractices": [
+                "Harvest before flowering",
+                "Leave some leaves for regrowth",
+                "Store in cool place"
+            ]
+        }
+    }
+]

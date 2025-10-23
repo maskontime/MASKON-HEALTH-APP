@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Mukimo",
+        "description": "Traditional Kikuyu dish made with mashed potatoes, peas, pumpkin leaves and corn.",
+        "ingredients": [
+            {
+                "name": "Potatoes",
+                "quantity": "500g",
+                "nutritionalValue": "Rich in carbohydrates and vitamin C"
+            },
+            {
+                "name": "Green Peas",
+                "quantity": "200g",
+                "nutritionalValue": "High in protein and fiber"
+            },
+            {
+                "name": "Pumpkin Leaves",
+                "quantity": "200g",
+                "nutritionalValue": "Rich in vitamins A and K"
+            },
+            {
+                "name": "Corn",
+                "quantity": "200g",
+                "nutritionalValue": "Good source of fiber and minerals"
+            }
+        ],
+        "preparationSteps": [
+            "Peel and cut potatoes into chunks",
+            "Shell peas and clean pumpkin leaves",
+            "Boil all ingredients until tender",
+            "Mash everything together until well combined",
+            "Season with salt to taste"
+        ],
+        "nutritionalInfo": {
+            "calories": 280,
+            "protein": 8,
+            "carbohydrates": 45,
+            "fats": 4,
+            "fiber": 6
+        },
+        "category": "dinner",
+        "region": "Central Kenya",
+        "healthBenefits": [
+            "High in dietary fiber",
+            "Good source of plant-based protein",
+            "Rich in vitamins and minerals",
+            "Provides sustained energy"
+        ],
+        "preparationTime": 45,
+        "servingSize": 4
+    },
+    {
+        "name": "Uji wa Wimbi",
+        "description": "Traditional millet porridge, a nutritious breakfast option.",
+        "ingredients": [
+            {
+                "name": "Millet Flour",
+                "quantity": "200g",
+                "nutritionalValue": "Rich in iron and B vitamins"
+            },
+            {
+                "name": "Water",
+                "quantity": "1L",
+                "nutritionalValue": "Hydration"
+            },
+            {
+                "name": "Lemon",
+                "quantity": "1 piece",
+                "nutritionalValue": "Vitamin C"
+            }
+        ],
+        "preparationSteps": [
+            "Boil water in a pot",
+            "Mix millet flour with cold water to make a paste",
+            "Add paste to boiling water while stirring",
+            "Cook until desired thickness",
+            "Add lemon juice to taste"
+        ],
+        "nutritionalInfo": {
+            "calories": 150,
+            "protein": 4,
+            "carbohydrates": 30,
+            "fats": 1,
+            "fiber": 3
+        },
+        "category": "breakfast",
+        "region": "Eastern Kenya",
+        "healthBenefits": [
+            "Good for digestive health",
+            "Provides sustained energy",
+            "Rich in minerals",
+            "Supports immune system"
+        ],
+        "preparationTime": 20,
+        "servingSize": 4
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Mountain Forest Honey",
+        "type": "raw",
+        "flowerSource": ["Acacia", "Wild Flowers"],
+        "description": "Pure, unprocessed honey collected from mountain forest regions of Kenya.",
+        "region": "Mount Kenya Region",
+        "benefits": [
+            "Natural antibacterial properties",
+            "Rich in antioxidants",
+            "Supports immune system",
+            "Natural energy booster"
+        ],
+        "nutritionalInfo": {
+            "calories": 304,
+            "sugar": 82.4,
+            "minerals": ["Potassium", "Calcium", "Zinc"],
+            "vitamins": ["B6", "C"]
+        },
+        "quality": {
+            "purity": 98,
+            "moisture": 17.5,
+            "color": "Amber"
+        },
+        "packaging": [
+            {
+                "size": {
+                    "value": 250,
+                    "unit": "ml"
+                },
+                "price": 500
+            },
+            {
+                "size": {
+                    "value": 500,
+                    "unit": "ml"
+                },
+                "price": 900
+            }
+        ],
+        "harvestInfo": {
+            "season": "Dry Season",
+            "method": "Traditional"
+        }
+    },
+    {
+        "name": "Coastal Mangrove Honey",
+        "type": "raw",
+        "flowerSource": ["Mangrove", "Coastal Flowers"],
+        "description": "Unique honey harvested from coastal mangrove forests.",
+        "region": "Kenyan Coast",
+        "benefits": [
+            "High mineral content",
+            "Natural sweetener",
+            "Supports digestive health",
+            "Local allergen immunity"
+        ],
+        "nutritionalInfo": {
+            "calories": 300,
+            "sugar": 80.8,
+            "minerals": ["Iron", "Magnesium", "Sodium"],
+            "vitamins": ["B12", "D"]
+        },
+        "quality": {
+            "purity": 96,
+            "moisture": 18.2,
+            "color": "Dark Amber"
+        },
+        "packaging": [
+            {
+                "size": {
+                    "value": 250,
+                    "unit": "ml"
+                },
+                "price": 600
+            },
+            {
+                "size": {
+                    "value": 500,
+                    "unit": "ml"
+                },
+                "price": 1100
+            }
+        ],
+        "harvestInfo": {
+            "season": "Year-round",
+            "method": "Sustainable harvesting"
+        }
+    }
+]

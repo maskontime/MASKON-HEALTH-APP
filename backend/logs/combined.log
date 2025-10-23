@@ -1,0 +1,10 @@
+{"level":"warn","message":"MongoDB URI not found. Starting without database connection.","service":"maskon-health-api","timestamp":"2025-10-23 09:25:10"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"maskon-health-api","timestamp":"2025-10-23 09:25:11"}
+{"level":"warn","message":"MongoDB URI not found. Starting without database connection.","service":"maskon-health-api","timestamp":"2025-10-23 09:25:11"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"maskon-health-api","timestamp":"2025-10-23 09:25:11"}
+{"level":"warn","message":"MongoDB URI not found. Starting without database connection.","service":"maskon-health-api","timestamp":"2025-10-23 09:25:11"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"maskon-health-api","timestamp":"2025-10-23 09:25:12"}
+{"level":"warn","message":"MongoDB URI not found. Starting without database connection.","service":"maskon-health-api","timestamp":"2025-10-23 09:25:11"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"maskon-health-api","timestamp":"2025-10-23 09:25:12"}
+{"level":"warn","message":"MongoDB URI not found. Starting without database connection.","service":"maskon-health-api","timestamp":"2025-10-23 09:26:25"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"maskon-health-api","timestamp":"2025-10-23 09:26:27"}

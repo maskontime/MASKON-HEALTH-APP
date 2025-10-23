@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Dr. Jane Muthoni",
+        "email": "jane.muthoni@maskonhealth.com",
+        "password": "$2a$10$XHGBtMn8H1Y7oFwNJ3Zk5eQq9j8zEKZMpzV.r0K3G3z8Y3jX5eK2q",
+        "phoneNumber": "+254712345678",
+        "role": "traditional-healer",
+        "specialization": "Herbal Medicine",
+        "experience": 15,
+        "certifications": [
+            {
+                "name": "Traditional Medicine Practitioner",
+                "issuedBy": "Kenya Traditional Healers Association",
+                "year": 2010
+            }
+        ],
+        "location": {
+            "region": "Central Kenya",
+            "city": "Nyeri",
+            "address": "123 Kimathi Street"
+        },
+        "availability": [
+            {
+                "day": "monday",
+                "slots": [
+                    {
+                        "startTime": "09:00",
+                        "endTime": "17:00"
+                    }
+                ]
+            },
+            {
+                "day": "wednesday",
+                "slots": [
+                    {
+                        "startTime": "09:00",
+                        "endTime": "17:00"
+                    }
+                ]
+            }
+        ],
+        "isVerified": true
+    },
+    {
+        "name": "John Ochieng",
+        "email": "john.ochieng@maskonhealth.com",
+        "password": "$2a$10$XHGBtMn8H1Y7oFwNJ3Zk5eQq9j8zEKZMpzV.r0K3G3z8Y3jX5eK2q",
+        "phoneNumber": "+254723456789",
+        "role": "fitness-trainer",
+        "specialization": "Traditional African Fitness",
+        "experience": 8,
+        "certifications": [
+            {
+                "name": "Certified Fitness Trainer",
+                "issuedBy": "Kenya Association of Fitness Professionals",
+                "year": 2015
+            }
+        ],
+        "location": {
+            "region": "Nairobi",
+            "city": "Nairobi",
+            "address": "456 Fitness Avenue"
+        },
+        "availability": [
+            {
+                "day": "tuesday",
+                "slots": [
+                    {
+                        "startTime": "06:00",
+                        "endTime": "12:00"
+                    }
+                ]
+            },
+            {
+                "day": "thursday",
+                "slots": [
+                    {
+                        "startTime": "14:00",
+                        "endTime": "20:00"
+                    }
+                ]
+            }
+        ],
+        "isVerified": true
+    }
+]

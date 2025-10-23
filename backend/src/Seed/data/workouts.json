@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Traditional Warrior Workout",
+        "description": "A high-intensity workout inspired by traditional Maasai warrior training",
+        "type": "traditional",
+        "category": "strength",
+        "difficulty": "advanced",
+        "duration": {
+            "value": 45,
+            "unit": "minutes"
+        },
+        "exercises": [
+            {
+                "name": "Warrior Jumps",
+                "description": "Traditional jumping exercise to build leg strength and agility",
+                "sets": 3,
+                "reps": 15,
+                "equipment": [],
+                "modifications": [
+                    {
+                        "level": "beginner",
+                        "description": "Reduce jump height and do fewer repetitions"
+                    }
+                ]
+            },
+            {
+                "name": "Spear Throws",
+                "description": "Simulated spear throwing movement using weighted stick",
+                "sets": 4,
+                "reps": 10,
+                "equipment": ["Wooden stick or light weight"],
+                "modifications": [
+                    {
+                        "level": "intermediate",
+                        "description": "Use lighter weight and focus on form"
+                    }
+                ]
+            }
+        ],
+        "equipment": ["Wooden stick", "Open space"],
+        "targetMuscles": ["Legs", "Core", "Shoulders", "Back"],
+        "benefits": [
+            "Builds functional strength",
+            "Improves agility",
+            "Enhances coordination",
+            "Increases endurance"
+        ],
+        "precautions": [
+            "Warm up properly",
+            "Stay hydrated",
+            "Maintain proper form"
+        ],
+        "calories": 450
+    },
+    {
+        "name": "Traditional Dance Fitness",
+        "description": "Cardio workout based on traditional African dance movements",
+        "type": "traditional",
+        "category": "cardio",
+        "difficulty": "intermediate",
+        "duration": {
+            "value": 30,
+            "unit": "minutes"
+        },
+        "exercises": [
+            {
+                "name": "Kikuyu Harvest Dance",
+                "description": "Rhythmic movements mimicking traditional harvest celebration",
+                "duration": {
+                    "value": 10,
+                    "unit": "minutes"
+                },
+                "modifications": [
+                    {
+                        "level": "beginner",
+                        "description": "Follow basic steps without jumps"
+                    }
+                ]
+            },
+            {
+                "name": "Maasai Jump Dance",
+                "description": "Traditional jumping movements set to rhythm",
+                "duration": {
+                    "value": 5,
+                    "unit": "minutes"
+                },
+                "modifications": [
+                    {
+                        "level": "beginner",
+                        "description": "Reduce jump height and intensity"
+                    }
+                ]
+            }
+        ],
+        "equipment": ["Comfortable shoes", "Open space"],
+        "targetMuscles": ["Full body", "Core", "Legs"],
+        "benefits": [
+            "Improves cardiovascular health",
+            "Enhances rhythm and coordination",
+            "Burns calories",
+            "Preserves cultural dance traditions"
+        ],
+        "precautions": [
+            "Start slowly",
+            "Stay hydrated",
+            "Listen to your body"
+        ],
+        "calories": 300
+    }
+]

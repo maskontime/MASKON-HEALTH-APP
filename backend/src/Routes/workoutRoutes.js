@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { protect, authorize } = require('../middleware/auth');
+const { protect, authorize } = require('../Middleware/auth');
 const {
     getWorkouts,
     getWorkout,
@@ -8,7 +8,7 @@ const {
     updateWorkout,
     deleteWorkout,
     addWorkoutReview
-} = require('../controllers/workoutController');
+} = require('../Controllers/workoutController');
 
 // Input validation middleware
 const { check } = require('express-validator');

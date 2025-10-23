@@ -1,4 +1,4 @@
-const Workout = require('../models/Workout');
+const Workout = require('../Models/Workout');
 const { validationResult } = require('express-validator');
 
 // @desc    Get all workouts

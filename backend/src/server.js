@@ -4,8 +4,8 @@ const cors = require('cors');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const path = require('path');
-const { limiter, authLimiter } = require('./middleware/rateLimiter');
-const { errorHandler } = require('./middleware/errorHandler');
+const { limiter, authLimiter } = require('./Middleware/rateLimiter');
+const { errorHandler } = require('./Middleware/errorHandler');
 const logger = require('./utils/logger');
 const connectDB = require('./config/db');
 
@@ -13,7 +13,7 @@ const connectDB = require('./config/db');
 const app = express();
 
 // Connect to Database
-if (process.env.MONGO_URI) {
+if (process.env.MONGODB_URL) {
     connectDB();
 } else {
     logger.warn('MongoDB URI not found. Starting without database connection.');
@@ -22,7 +22,7 @@ if (process.env.MONGO_URI) {
 // Security Middleware
 app.use(helmet()); // Security headers
 app.use(cors({
-    origin: process.env.CORS_ORIGIN,
+    origin: process.env.ALLOWED_ORIGINS,
     credentials: true
 }));
 app.use(limiter); // Rate limiting
@@ -43,12 +43,12 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 // Import routes
-const mealRoutes = require('./routes/mealRoutes');
-const herbRoutes = require('./routes/herbRoutes');
-const honeyRoutes = require('./routes/honeyRoutes');
-const workoutRoutes = require('./routes/workoutRoutes');
-const personnelRoutes = require('./routes/personnelRoutes');
-const authRoutes = require('./routes/authRoutes');
+const mealRoutes = require('./Routes/mealRoutes');
+const herbRoutes = require('./Routes/herbRoutes');
+const honeyRoutes = require('./Routes/honeyRoutes');
+const workoutRoutes = require('./Routes/workoutRoutes');
+const personnelRoutes = require('./Routes/personnelRoutes');
+const authRoutes = require('./Routes/authRoutes');
 
 // API Routes
 app.use('/api/v1/meals', mealRoutes);

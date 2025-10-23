@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { protect, authorize } = require('../middleware/auth');
+const { protect, authorize } = require('../Middleware/auth');
 const {
     getAllHoney,
     getHoney,
@@ -8,7 +8,7 @@ const {
     updateHoney,
     deleteHoney,
     addHoneyReview
-} = require('../controllers/honeyController');
+} = require('../Controllers/honeyController');
 
 // Input validation middleware
 const { check } = require('express-validator');

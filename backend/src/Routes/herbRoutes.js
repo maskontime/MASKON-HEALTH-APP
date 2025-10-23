@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const { protect, authorize } = require('../middleware/auth');
+const { protect, authorize } = require('../Middleware/auth');
 const {
     getHerbs,
     getHerb,
     createHerb,
     updateHerb,
     deleteHerb
-} = require('../controllers/herbController');
+} = require('../Controllers/herbController');
 
 // Input validation middleware
 const { check } = require('express-validator');

@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Middleware
-const { protect, authorize } = require('../middleware/auth');
+const { protect, authorize } = require('../Middleware/auth');
 
 // Routes
 router.get('/', (req, res) => {

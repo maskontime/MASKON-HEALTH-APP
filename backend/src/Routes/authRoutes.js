@@ -3,8 +3,8 @@ const router = express.Router();
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const { check, validationResult } = require('express-validator');
-const Personnel = require('../models/Personnel');
-const { protect } = require('../middleware/auth');
+const Personnel = require('../Models/Personnel');
+const { protect } = require('../Middleware/auth');
 
 // @route   POST /api/v1/auth/register
 // @desc    Register personnel

@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const { protect, authorize } = require('../middleware/auth');
+const { protect, authorize } = require('../Middleware/auth');
 const {
     getMeals,
     getMeal,
     createMeal,
     updateMeal,
     deleteMeal
-} = require('../controllers/mealController');
+} = require('../Controllers/mealController');
 
 // Input validation middleware
 const { check } = require('express-validator');

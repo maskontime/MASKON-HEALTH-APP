@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "maskon-health-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend API for Maskon Health - African Health & Fitness App",
   "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js",

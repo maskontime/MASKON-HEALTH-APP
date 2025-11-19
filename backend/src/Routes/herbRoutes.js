@@ -1,35 +1,24 @@
 const express = require('express');
 const router = express.Router();
-const { protect, authorize } = require('../Middleware/auth');
-const {
-    getHerbs,
-    getHerb,
-    createHerb,
-    updateHerb,
-    deleteHerb
-} = require('../Controllers/herbController');
-
-// Input validation middleware
-const { check } = require('express-validator');
-
-const validateHerb = [
-    check('name', 'Name is required').not().isEmpty(),
-    check('description', 'Description is required').not().isEmpty(),
-    check('benefits', 'Benefits must be an array').isArray(),
-    check('usages', 'Usages must be an array').isArray(),
-    check('region', 'Region is required').not().isEmpty(),
-    check('category', 'Category is required').not().isEmpty(),
-    check('price.amount', 'Price amount is required').isNumeric(),
-    check('price.unit', 'Price unit is required').not().isEmpty()
-];
+const { body } = require('express-validator');
+const herbController = require('../controllers/herbController');
+const { protect, authorize } = require('../middleware/auth');
 
 router.route('/')
-    .get(getHerbs)
-    .post(protect, authorize('admin', 'traditional-healer'), validateHerb, createHerb);
+    .get(herbController.getHerbs)
+    .post(
+        protect,
+        authorize('admin','healer'),
+        [
+            body('name').notEmpty().withMessage('Name is required'),
+            body('category').notEmpty().withMessage('Category is required')
+        ],
+        herbController.createHerb
+    );
 
 router.route('/:id')
-    .get(getHerb)
-    .put(protect, authorize('admin', 'traditional-healer'), validateHerb, updateHerb)
-    .delete(protect, authorize('admin'), deleteHerb);
+    .get(herbController.getHerb)
+    .put(protect, authorize('admin','healer'), herbController.updateHerb)
+    .delete(protect, authorize('admin'), herbController.deleteHerb);
 
 module.exports = router;

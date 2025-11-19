@@ -4,8 +4,8 @@ const cors = require('cors');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const path = require('path');
-const { limiter, authLimiter } = require('./src/middleware/rateLimiter');
-const { errorHandler } = require('./src/middleware/errorHandler');
+const { limiter, authLimiter } = require('./src/Middleware/rateLimiter');
+const { errorHandler } = require('./src/Middleware/errorHandler');
 const logger = require('./src/utils/logger');
 const connectDB = require('./src/config/db');
 
@@ -40,12 +40,12 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 // Import routes
-const mealRoutes = require('./src/routes/mealRoutes');
-const herbRoutes = require('./src/routes/herbRoutes');
-const honeyRoutes = require('./src/routes/honeyRoutes');
-const workoutRoutes = require('./src/routes/workoutRoutes');
-const personnelRoutes = require('./src/routes/personnelRoutes');
-const authRoutes = require('./src/routes/authRoutes');
+const mealRoutes = require('./src/Routes/mealRoutes');
+const herbRoutes = require('./src/Routes/herbRoutes');
+const honeyRoutes = require('./src/Routes/honeyRoutes');
+const workoutRoutes = require('./src/Routes/workoutRoutes');
+const personnelRoutes = require('./src/Routes/personnelRoutes');
+const authRoutes = require('./src/Routes/authRoutes');
 
 // API Routes
 app.use('/api/v1/meals', mealRoutes);
@@ -64,7 +64,7 @@ app.get('/health', (req, res) => {
 app.use(errorHandler);
 
 // Handle unhandled routes
-app.use('*', (req, res) => {
+app.use((req, res) => {
     res.status(404).json({
         success: false,
         error: `Route ${req.originalUrl} not found`

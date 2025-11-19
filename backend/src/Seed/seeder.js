@@ -6,12 +6,12 @@ const path = require('path');
 // Load env vars
 dotenv.config();
 
-// Load models
-const Herb = require('../Models/Herb');
-const Honey = require('../Models/Honey');
-const Meal = require('../Models/Meal');
-const Personnel = require('../Models/Personnel');
-const Workout = require('../Models/Workout');
+// Load models (lowercase module paths)
+const Herb = require('../models/Herb');
+const Honey = require('../models/Honey');
+const Meal = require('../models/Meal');
+const Personnel = require('../models/Personnel');
+const Workout = require('../models/Workout');
 
 // Connect to DB
 mongoose.connect(process.env.MONGODB_URL, {

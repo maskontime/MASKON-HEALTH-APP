@@ -1,14 +1,14 @@
 const mongoose = require('mongoose');
+const logger = require('../utils/logger');
 
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect(process.env.MONGODB_URL, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
-        console.log(`MongoDB Connected: ${conn.connection.host}`);
+        const uri = process.env.MONGODB_URL || process.env.MONGO_URI;
+        if (!uri) throw new Error('MongoDB connection string is not defined in environment variables');
+        const conn = await mongoose.connect(uri);
+        logger.info(`MongoDB Connected: ${conn.connection.host}`);
     } catch (error) {
-        console.error(`Error: ${error.message}`);
+        logger.error(`MongoDB Connection Error: ${error.message}`);
         process.exit(1);
     }
 };

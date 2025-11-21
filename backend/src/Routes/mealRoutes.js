@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { body } = require('express-validator');
-const mealController = require('../controllers/mealController');
-const { protect, authorize } = require('../middleware/auth');
+const mealController = require('../Controllers/mealController');
+const { protect, authorize } = require('../Middleware/auth');
 
 router.route('/')
     .get(mealController.getMeals)

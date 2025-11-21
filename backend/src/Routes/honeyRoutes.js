@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { body } = require('express-validator');
-const honeyController = require('../controllers/honeyController');
-const { protect, authorize } = require('../middleware/auth');
+const honeyController = require('../Controllers/honeyController');
+const { protect, authorize } = require('../Middleware/auth');
 
 router.route('/')
     .get(honeyController.getHoney)

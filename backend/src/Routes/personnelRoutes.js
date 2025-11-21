@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { body } = require('express-validator');
-const personnelController = require('../controllers/personnelController');
-const { protect, authorize } = require('../middleware/auth');
+const personnelController = require('../Controllers/personnelController');
+const { protect, authorize } = require('../Middleware/auth');
 
 router.route('/')
     .get(protect, authorize('admin'), personnelController.getPersonnel)

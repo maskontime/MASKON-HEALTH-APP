@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { body } = require('express-validator');
-const herbController = require('../controllers/herbController');
-const { protect, authorize } = require('../middleware/auth');
+const herbController = require('../Controllers/herbController');
+const { protect, authorize } = require('../Middleware/auth');
 
 router.route('/')
     .get(herbController.getHerbs)

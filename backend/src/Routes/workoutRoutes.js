@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { body } = require('express-validator');
-const workoutController = require('../controllers/workoutController');
-const { protect, authorize } = require('../middleware/auth');
+const workoutController = require('../Controllers/workoutController');
+const { protect, authorize } = require('../Middleware/auth');
 
 router.route('/')
     .get(workoutController.getWorkouts)

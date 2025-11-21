@@ -3,7 +3,7 @@ const router = express.Router();
 const {
     globalSearch,
     advancedSearch
-} = require('../controllers/searchController');
+} = require('../Controllers/searchController');
 
 // @route   GET /api/v1/search
 // @desc    Global search across all resources

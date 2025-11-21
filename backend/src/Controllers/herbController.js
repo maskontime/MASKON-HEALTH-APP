@@ -1,4 +1,4 @@
-const Herb = require('../models/Herb');
+const Herb = require('../Models/Herb');
 const { validationResult } = require('express-validator');
 
 // @desc    Get all herbs

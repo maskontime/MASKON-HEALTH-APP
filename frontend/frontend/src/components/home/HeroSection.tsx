@@ -5,8 +5,8 @@ import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 
 export const HeroSection: React.FC = () => {
   return (
-    <div className="relative bg-gradient-to-r from-primary-green to-secondary-orange text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+  <div className="relative bg-gradient-to-r from-primary-green to-secondary-orange text-white pt-24">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Traditional African Wellness

@@ -1,4 +1,4 @@
-const Honey = require('../models/Honey');
+const Honey = require('../models/honey');
 const { validationResult } = require('express-validator');
 
 // @desc    Get all honey products

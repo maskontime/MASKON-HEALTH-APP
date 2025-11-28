@@ -1,4 +1,4 @@
-const Personnel = require('../models/Personnel');
+const Personnel = require('../models/personnel');
 const { validationResult } = require('express-validator');
 
 // @desc    Register personnel (admin/traditional/helpers)

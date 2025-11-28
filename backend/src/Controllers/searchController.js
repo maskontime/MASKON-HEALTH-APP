@@ -1,8 +1,8 @@
-const Meal = require('../models/Meal');
-const Herb = require('../models/Herb');
-const Honey = require('../models/Honey');
-const Workout = require('../models/Workout');
-const Personnel = require('../models/Personneljs');
+const Meal = require('../models/meal');
+const Herb = require('../models/herb');
+const Honey = require('../models/honey');
+const Workout = require('../models/workout');
+const Personnel = require('../models/personnel');
 
 // @desc    Global search across all resources
 // @route   GET /api/v1/search

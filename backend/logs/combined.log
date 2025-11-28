@@ -75,3 +75,9 @@
 {"level":"info","message":"MongoDB Connected: localhost","service":"maskon-health-api","timestamp":"2025-11-22 05:45:12"}
 {"level":"info","message":"Server running in development mode on port 5000","service":"maskon-health-api","timestamp":"2025-11-22 06:15:18"}
 {"level":"info","message":"MongoDB Connected: localhost","service":"maskon-health-api","timestamp":"2025-11-22 06:15:18"}
+{"level":"info","message":"🚀 Server running in DEVELOPMENT mode on port 5000","service":"maskon-health-api","timestamp":"2025-11-28 09:17:07"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"maskon-health-api","timestamp":"2025-11-28 09:17:07"}
+{"level":"info","message":"🚀 Server running in DEVELOPMENT mode on port 5000","service":"maskon-health-api","timestamp":"2025-11-28 09:18:22"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"maskon-health-api","timestamp":"2025-11-28 09:18:22"}
+{"level":"info","message":"🚀 Server running in DEVELOPMENT mode on port 5000","service":"maskon-health-api","timestamp":"2025-11-28 09:18:43"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"maskon-health-api","timestamp":"2025-11-28 09:18:43"}

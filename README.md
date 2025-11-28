@@ -6,7 +6,9 @@
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-green.svg)](https://www.mongodb.com/)
 Deploymnt links
- https://maskon-health-app-3.onrender.com
+<br/>
+<li>maskon-fitness.vercel.app</li>
+ <li>https://maskon-health-app-3.onrender.com</li>
 
 ---
 

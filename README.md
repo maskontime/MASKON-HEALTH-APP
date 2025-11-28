@@ -7,7 +7,7 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-green.svg)](https://www.mongodb.com/)
 Deploymnt links
 <br/>
-<li>maskon-fitness.vercel.app</li>
+<li>maskon-fitness.vercel.app/</li>
  <li>https://maskon-health-app-3.onrender.com</li>
 
 ---
